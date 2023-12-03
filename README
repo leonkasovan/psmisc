@@ -1,8 +1,9 @@
 BUILD
 =====
-git clone https://github.com/leonkasovan/psmisc.git
-autogen.sh --host x86_64
-make
+git clone https://github.com/leonkasovan/psmisc.git (HOST)
+apt install gettext (in Docker)
+autogen.sh --host x86_64 (in Docker)
+make (in Docker)
 
 psmisc
 ======
