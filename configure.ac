@@ -118,9 +118,7 @@ AC_FUNC_GETMNTENT
 AC_PROG_GCC_TRADITIONAL
 AC_FUNC_LSTAT
 AC_FUNC_LSTAT_FOLLOWS_SLASHED_SYMLINK
-AC_FUNC_MALLOC
 AC_FUNC_MEMCMP
-AC_FUNC_REALLOC
 AC_FUNC_STAT
 AC_CHECK_FUNCS([atexit getmntent memset nl_langinfo rawmemchr regcomp rpmatch setlocale socket strcasecmp strchr strdup strerror strpbrk strrchr strtoul])
 
